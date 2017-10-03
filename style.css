@@ -1,0 +1,57 @@
+#animals {
+  width: 70%;
+}
+
+.animal-item {
+  float: left;
+  padding: 15px;
+}
+
+#gif-form {
+	text-align: right;
+	
+	border-right-style: dotted;
+	
+}
+#add-gif {
+	margin-right: 75px;
+}
+
+#gifs-appear-here {
+	white-space: nowrap;
+	display: block;
+	float: left;
+	margin: 20px;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+form {
+  float: right;
+  width: 30%;
+  padding: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  font-weight: 700;
+}
+
+button,
+input[type="submit"] {
+  padding: 5px 10px;
+  margin: 0 10px 10px 0;
+  font-size: 15px;
+  color: #fff;
+  background: IndianRed;
+  border-radius: 2px;
+ 
+}
+
