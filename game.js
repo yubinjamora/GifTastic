@@ -25,6 +25,9 @@ $(document).on("click", ".gif", function(){
 
 
     var animal = $(this).attr("data-type");
+
+    $(".img").remove();
+    $(".item").remove();
     var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
     $.ajax({
